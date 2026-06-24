@@ -17,8 +17,7 @@ void main() {
   }
 
   // ── 2. Mixins ─────────────────────────────────────────────────────────
-  print('
-=== Mixins ===');
+  print('\n=== Mixins ===');
   var duck     = Duck('Donald');
   var airplane = Airplane('Boeing 747');
 
@@ -30,15 +29,13 @@ void main() {
   // airplane.swim(); // ERROR — Airplane doesn't have Swimmable
 
   // ── 3. Loggable mixin applied to different classes ────────────────────
-  print('
-=== Loggable Mixin ===');
+  print('\n=== Loggable Mixin ===');
   var account = BankAccountLogged('Alice', 1000.0);
   account.deposit(500.0);
   account.printLog();
 
   // ── 4. User input selects implementation ──────────────────────────────
-  print('
-=== Role-based Permissions ===');
+  print('\n=== Role-based Permissions ===');
   stdout.write('Enter your role (admin/viewer): ');
   String role = (stdin.readLineSync() ?? '').toLowerCase();
 

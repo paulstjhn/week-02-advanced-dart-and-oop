@@ -6,8 +6,7 @@ import 'dart:io';
 void main() {
   print('── Exercise 1 ──────────────────────────');
   exercise1();
-  print('
-── Exercise 2 ──────────────────────────');
+  print('\n── Exercise 2 ──────────────────────────');
   exercise2();
 }
 
@@ -91,8 +90,7 @@ void exercise2() {
     students.add(Student(name, s1, s2, s3));
   }
 
-  print('
---- All Students ---');
+  print('\n--- All Students ---');
   for (var s in students) print(s);
 
   // Find the top student using the same max-finding algorithm from Week 2
@@ -100,6 +98,5 @@ void exercise2() {
   for (var s in students) {
     if (s.average() > top.average()) top = s;
   }
-  print('
-Top student: ${top.name} (${top.average().toStringAsFixed(1)})');
+  print('\nTop student: ${top.name} (${top.average().toStringAsFixed(1)})');
 }

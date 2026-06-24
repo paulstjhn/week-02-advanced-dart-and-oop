@@ -6,8 +6,7 @@ import 'dart:io';
 void main() {
   print('── Exercise 1 ──────────────────────────');
   exercise1();
-  print('
-── Exercise 2 ──────────────────────────');
+  print('\n── Exercise 2 ──────────────────────────');
   exercise2();
 }
 
@@ -63,8 +62,7 @@ void exercise1() {
   print(profile);
 
   // Demonstrate validation rejection with invalid values
-  print('
-  Attempting invalid updates:');
+  print('\n  Attempting invalid updates:');
   profile.username = 'ab';       // too short
   profile.email    = 'notvalid'; // no @
   profile.age      = 200;         // out of range

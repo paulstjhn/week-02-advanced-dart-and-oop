@@ -16,8 +16,7 @@ void main() {
   }
 
   // ── 2. Abstract class + polymorphism ──────────────────────────────────
-  print('
-=== Shape Calculator ===');
+  print('\n=== Shape Calculator ===');
   List<Shape> shapes = [Circle(5), Rectangle(4, 6), Triangle(3, 4, 5)];
 
   for (Shape s in shapes) {
@@ -25,8 +24,7 @@ void main() {
   }
 
   // ── 3. User input selects subclass ────────────────────────────────────
-  print('
-=== Choose Your Shape ===');
+  print('\n=== Choose Your Shape ===');
   stdout.write('Enter shape (circle/rectangle/triangle): ');
   String choice = (stdin.readLineSync() ?? '').toLowerCase();
 

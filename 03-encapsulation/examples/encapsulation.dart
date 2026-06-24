@@ -15,8 +15,7 @@ void main() {
 
   account.printStatement();
 
-  print('
-=== Person with Validated Age ===');
+  print('\n=== Person with Validated Age ===');
   stdout.write('Enter your name: ');
   String name = stdin.readLineSync() ?? 'Unknown';
 
@@ -31,8 +30,7 @@ void main() {
   person.age = newAge; // goes through setter validation
   print(person);
 
-  print('
-=== Rectangle Computed Getters ===');
+  print('\n=== Rectangle Computed Getters ===');
   stdout.write('Enter width: ');
   double w = double.parse(stdin.readLineSync() ?? '0');
 

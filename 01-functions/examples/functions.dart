@@ -11,33 +11,28 @@ void main() {
   greet('Bob');
 
   // ── 2. Return values ────────────────────────────────────────────────
-  print('
-=== Return Values ===');
+  print('\n=== Return Values ===');
   int sum = add(10, 5);
   print('10 + 5 = $sum');
   print('3 x 4 = ${multiply(3, 4)}'); // use return value directly
 
   // ── 3. Optional parameters ─────────────────────────────────────────
-  print('
-=== Optional Parameters ===');
+  print('\n=== Optional Parameters ===');
   introduce('Alice');
   introduce('Bob', 'Admin');
 
   // ── 4. Named parameters ────────────────────────────────────────────
-  print('
-=== Named Parameters ===');
+  print('\n=== Named Parameters ===');
   printProfile(name: 'Charlie', age: 25);
   printProfile(name: 'Diana');   // age defaults to 0
 
   // ── 5. Arrow functions ─────────────────────────────────────────────
-  print('
-=== Arrow Functions ===');
+  print('\n=== Arrow Functions ===');
   print('Square of 6: ${square(6)}');
   print('Max of 8 and 13: ${max(8, 13)}');
 
   // ── 6. User input passed to a function ────────────────────────────
-  print('
-=== User Input ===');
+  print('\n=== User Input ===');
   stdout.write('Enter your name: ');
   String name = stdin.readLineSync() ?? 'stranger';
 

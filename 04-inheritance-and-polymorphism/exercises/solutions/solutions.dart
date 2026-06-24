@@ -6,8 +6,7 @@ import 'dart:io';
 void main() {
   print('── Exercise 1 ──────────────────────────');
   exercise1();
-  print('
-── Exercise 2 ──────────────────────────');
+  print('\n── Exercise 2 ──────────────────────────');
   exercise2();
 }
 

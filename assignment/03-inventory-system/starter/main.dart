@@ -70,8 +70,7 @@ void main() {
 }
 
 void printMenu() {
-  print('
-=== INVENTORY SYSTEM ==');
+  print('\n=== INVENTORY SYSTEM ==');
   print('1. Add product');
   print('2. Remove product');
   print('3. Restock product');
@@ -88,6 +87,7 @@ mixin Loggable {
   // TODO: private _logs list
   // TODO: void log(String message)
   // TODO: void printLogs()
+  void printLogs() {}
 }
 
 abstract class Product {
@@ -122,5 +122,7 @@ class Inventory with Loggable {
   // TODO: void restockProduct(String id, int quantity)
   // TODO: Product? findById(String id)
   // TODO: void printAll()
+  void printAll() {}
   // TODO: void printSummary()
+  void printSummary() {}
 }

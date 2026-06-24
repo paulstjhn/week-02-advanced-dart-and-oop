@@ -14,8 +14,7 @@ void main() {
 
   // ── Step 2: Read each employee's details ──────────────────────────────
   for (int i = 1; i <= count; i++) {
-    print('
---- Employee $i ---');
+    print('\n--- Employee $i ---');
 
     stdout.write('Type (fulltime/parttime/contractor): ');
     String type = (stdin.readLineSync() ?? '').toLowerCase();

@@ -17,8 +17,7 @@ void main() {
   }
 
   // ── 2. Specific exception types ────────────────────────────────────────
-  print('
-=== Specific Exceptions ===');
+  print('\n=== Specific Exceptions ===');
   List<String> inputs = ['42', 'abc', '', '999'];
 
   for (String input in inputs) {
@@ -34,8 +33,7 @@ void main() {
   }
 
   // ── 3. Custom exception ────────────────────────────────────────────────
-  print('
-=== Custom Exception ===');
+  print('\n=== Custom Exception ===');
   try {
     var account = SafeAccount('Alice', 200.0);
     account.withdraw(500.0); // throws InsufficientFundsException
@@ -44,8 +42,7 @@ void main() {
   }
 
   // ── 4. Safe input loop — keeps asking until valid ──────────────────────
-  print('
-=== Safe Input Loop ===');
+  print('\n=== Safe Input Loop ===');
   int age = readValidAge();
   print('Age accepted: $age');
 

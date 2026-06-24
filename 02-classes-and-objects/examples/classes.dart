@@ -17,8 +17,7 @@ void main() {
   bob.printBalance();
 
   // ── 2. Named constructors ──────────────────────────────────────────────
-  print('
-=== Temperature Named Constructors ===');
+  print('\n=== Temperature Named Constructors ===');
   var boiling  = Temperature(100);
   var bodyTemp = Temperature.fromFahrenheit(98.6);
   var absolute = Temperature.absoluteZero();
@@ -28,14 +27,12 @@ void main() {
   print('Absolute zero: ${absolute.celsius}°C');
 
   // ── 3. toString() override ─────────────────────────────────────────────
-  print('
-=== toString() ===');
+  print('\n=== toString() ===');
   var student = Student('Charlie', 91);
   print(student); // uses our custom toString()
 
   // ── 4. List of objects ─────────────────────────────────────────────────
-  print('
-=== List of Objects ===');
+  print('\n=== List of Objects ===');
   List<Student> students = [
     Student('Alice', 88),
     Student('Bob', 74),
@@ -47,8 +44,7 @@ void main() {
   }
 
   // ── 5. Object created from user input ──────────────────────────────────
-  print('
-=== Create From User Input ===');
+  print('\n=== Create From User Input ===');
   stdout.write('Enter your name: ');
   String name = stdin.readLineSync() ?? 'Unknown';
 
@@ -82,7 +78,7 @@ class BankAccount {
   }
 
   void printBalance() {
-    print('$owner's balance: \$${balance.toStringAsFixed(2)}');
+    print('$owner\'s balance: \$${balance.toStringAsFixed(2)}');
   }
 }
 
