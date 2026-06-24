@@ -41,7 +41,7 @@ By the end of this week, you should be able to:
 | Week | Topics Covered | Folder | Status |
 |:----:|----------------|--------|:------:|
 | **01** | Programming Concepts · Dart Syntax · Variables & Types · Loops & Parallel Lists · Functions · ATM Simulator | [`week-01-dart-fundamentals/`](../week-01-dart-fundamentals/) | ✅ Complete |
-| **02** | Object-Oriented Programming (OOP) · Classes & Inheritance · Interfaces & Mixins · Error Handling | [`./`](./) | ✅ Live |
+| **02** | Object-Oriented Programming (OOP) · Classes & Inheritance · Interfaces & Mixins · Error Handling | [`../week-02-advanced-dart-and-oop`](./) | ✅ Live |
 | **03** | Flutter Framework introduction · Widgets Structure · Stateless vs Stateful Widgets | [`week-04-flutter-stateless-stateful-widget/`](../week-04-flutter-stateless-stateful-widget/) | 🔜 Coming |
 | **04** | Material Design UI Layouts · Multi-page Navigation · Custom Themes & Styles | [`week-05-flutter-ui-ux/`](../week-05-flutter-ui-ux/) | 🔜 Coming |
 | **05** | State Management concepts · Provider/Riverpod implementations | [`week-06-flutter-state-management/`](../week-06-flutter-state-management/) | 🔜 Coming |
