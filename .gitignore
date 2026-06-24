@@ -1,0 +1,21 @@
+# ==========================
+# Mentor-only content
+# ==========================
+# The _mentor/ folder contains rubrics, solutions, and grading materials
+# that should never be pushed to GitHub (visible to mentees).
+**/_mentor/
+
+# ==========================
+# IDE & System Files
+# ==========================
+.vscode/
+.DS_Store
+Thumbs.db
+
+# ==========================
+# Dart & Flutter
+# ==========================
+.dart_tool/
+build/
+.packages
+pubspec.lock
