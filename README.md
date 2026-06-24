@@ -1,10 +1,10 @@
 <p align="center">
-  <img src="https://img.shields.io/badge/Week_03-Advanced_Dart_%26_OOP-00599C?style=for-the-badge&logo=dart&logoColor=white" alt="Week 03 Badge" />
+  <img src="https://img.shields.io/badge/Week_02-Advanced_Dart_%26_OOP-00599C?style=for-the-badge&logo=dart&logoColor=white" alt="Week 02 Badge" />
   <img src="https://img.shields.io/badge/Level-Intermediate-4CAF50?style=for-the-badge" alt="Level Badge" />
   <img src="https://img.shields.io/badge/Status-Active-blue?style=for-the-badge" alt="Status Badge" />
 </p>
 
-<h1 align="center">🚀 Week 3 — Functions, Classes & Object-Oriented Programming</h1>
+<h1 align="center">🚀 Week 2 — Functions, Classes & Object-Oriented Programming</h1>
 
 <p align="center">
   <strong>Master modular functions, console interactions, classes, encapsulation, inheritance, polymorphism, abstract interfaces, and mixins in Dart.</strong>
@@ -40,11 +40,11 @@ By the end of this week, you should be able to:
 
 | Week | Topics Covered | Folder | Status |
 |:----:|----------------|--------|:------:|
-| **02** | Programming Concepts · Dart Syntax · Variables & Types · Loops & Parallel Lists · Functions · ATM Simulator | [`week-02-dart-fundamentals/`](../week-02-dart-fundamentals/) | ✅ Complete |
-| **03** | Object-Oriented Programming (OOP) · Classes & Inheritance · Interfaces & Mixins · Error Handling | [`./`](./) | ✅ Live |
-| **04** | Flutter Framework introduction · Widgets Structure · Stateless vs Stateful Widgets | [`week-04-flutter-widgets/`](../week-04-flutter-stateless-stateful-widget/) | 🔜 Coming |
-| **05** | Material Design UI Layouts · Multi-page Navigation · Custom Themes & Styles | [`week-05-flutter-ui-ux/`](../week-05-flutter-ui-ux/) | 🔜 Coming |
-| **06** | State Management concepts · Provider/Riverpod implementations | [`week-06-state-management/`](../week-06-flutter-state-management/) | 🔜 Coming |
+| **01** | Programming Concepts · Dart Syntax · Variables & Types · Loops & Parallel Lists · Functions · ATM Simulator | [`week-01-dart-fundamentals/`](../week-01-dart-fundamentals/) | ✅ Complete |
+| **02** | Object-Oriented Programming (OOP) · Classes & Inheritance · Interfaces & Mixins · Error Handling | [`./`](./) | ✅ Live |
+| **03** | Flutter Framework introduction · Widgets Structure · Stateless vs Stateful Widgets | [`week-04-flutter-stateless-stateful-widget/`](../week-04-flutter-stateless-stateful-widget/) | 🔜 Coming |
+| **04** | Material Design UI Layouts · Multi-page Navigation · Custom Themes & Styles | [`week-05-flutter-ui-ux/`](../week-05-flutter-ui-ux/) | 🔜 Coming |
+| **05** | State Management concepts · Provider/Riverpod implementations | [`week-06-flutter-state-management/`](../week-06-flutter-state-management/) | 🔜 Coming |
 
 ---
 

@@ -1,4 +1,4 @@
-# Glossary — Week 3
+# Glossary — Week 2
 
 Reference this whenever you encounter an unfamiliar term.
 

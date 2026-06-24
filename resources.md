@@ -1,4 +1,4 @@
-# Resources — Week 3 Overview
+# Resources — Week 2 Overview
 
 A curated list of external materials to support your learning this week.
 Each link includes a note on what it covers and when to watch/read it.
