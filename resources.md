@@ -21,7 +21,11 @@ Each link includes a note on what it covers and when to watch/read it.
 
 ---
 
+
 ## 🌐 Official Documentation
+
+- [Dart — Cheatsheet](https://dart.dev/resources/dart-cheatsheet)
+  The official reference. Use it to look up specific syntax, not to learn from scratch.
 
 - [Dart — Functions](https://dart.dev/language/functions)
   The official reference. Use it to look up specific syntax, not to learn from scratch.
